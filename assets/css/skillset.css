@@ -5,10 +5,43 @@
     margin: 1rem;
 }
 
-#skillset img {
+#skillset img{
   border-radius: 1rem;
   max-width: 7rem;
   cursor: context-menu;
+}
+#skillset i{
+  font-size: 5rem;
+  padding: 0;
+  border-radius: 10px;
+  
+}
+.fa-html5 {
+  color: #D55B28;
+  
+}
+.fa-css3-alt {
+  color: #1A6FB4;  
+}
+.fa-js {
+  
+  color: #F7DF1E;
+}
+.fa-git-alt{
+  color: #EB4D28;
+}
+.fa-npm {
+  color: #CA3736;
+}
+.fa-sass {
+  color: #C66393;
+}
+.fa-node-js{
+  color: #7BCC3A;
+}
+
+.fa-react {
+  color: #5DD2F3;
 }
 
 
