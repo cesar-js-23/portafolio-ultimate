@@ -40,25 +40,38 @@ form button:hover {
     background-color: var(--secondary-dark)
 }
 
-#social-media img {
+#social-media img{
     border-radius: 10rem;
     background-color: var(--white);
-    transition: all ease .3s;
-    margin: 1rem;
+    
+    margin: 1rem;    
 }
+#social-media a{
+   display: inline-block;
+   margin: 1rem;
+   font-size: 3rem;
+   color: white;
+   transition: all ease .3s; 
+  
+}
+#social-media a i{
+    overflow: hidden;
+}
+
+
 
 #social-media a {
     text-decoration: none;
 }
 
 #linkedin:hover {
-    background-color: #0077b5;
+    color: #0A66C2;
 }
 
 #github:hover {
-    background-color: black;
+    color: black;
 }
-#youtube:hover {
-    background-color: red;
+#instagram:hover {
+    color: rgb(236, 44, 44);
 }
 
