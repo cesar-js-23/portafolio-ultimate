@@ -7,6 +7,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
     margin: 1rem;
+    row-gap: 2rem;
 }
 
 
@@ -18,12 +19,10 @@
 #skillset i{
   font-size: 5rem;
   padding: 0;
-  border-radius: 10px;
-  
+  border-radius: 10px;  
 }
 .fa-html5 {
-  color: #D55B28;
-  
+  color: #D55B28;  
 }
 .fa-css3-alt {
   color: #1A6FB4;  
@@ -84,6 +83,19 @@
   border-width: 5px;
   border-style: solid;
   border-color: rgba(0,0,0,0.75) transparent transparent transparent;
+}
+
+
+@media only screen and (min-width:600px){
+  #skillset i{
+    font-size: 7rem;
+    padding: 0;
+    border-radius: 10px;  
+    
+  }
+  #skillset > div {
+    row-gap: 4rem;
+}
 }
 
 
