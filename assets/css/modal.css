@@ -67,6 +67,7 @@
 }
 
 .container-moda-body{
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -111,14 +112,14 @@
     width: 80%;        
     /* margin-left: -.25rem; */
 }
-/* .footer {   
+.footer {   
     height: 80px;
     display: flex; 
     column-gap: 5px;  
     align-items: center;
     justify-content: center;   
     width: 100%;  
-} */
+}
 
 .modal-header, .footer{
     padding: 8px 16px;
