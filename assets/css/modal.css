@@ -108,7 +108,7 @@
     padding: 0 1.4rem;
 }
 .modal-body{
-    height: auto;
+    height: 220px;
 }
 .modal-body img {    
     width: 80%;        
