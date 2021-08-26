@@ -62,14 +62,14 @@
 .contenido-modal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 
 .container-moda-body{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;     
 }
 
@@ -111,14 +111,14 @@
     width: 80%;        
     /* margin-left: -.25rem; */
 }
-.footer {   
+/* .footer {   
     height: 80px;
     display: flex; 
     column-gap: 5px;  
     align-items: center;
     justify-content: center;   
     width: 100%;  
-}
+} */
 
 .modal-header, .footer{
     padding: 8px 16px;
