@@ -107,7 +107,9 @@
     color: red;
     padding: 0 1.4rem;
 }
-
+.modal-body{
+    height: auto;
+}
 .modal-body img {    
     width: 80%;        
     /* margin-left: -.25rem; */
