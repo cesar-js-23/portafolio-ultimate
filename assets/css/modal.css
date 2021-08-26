@@ -130,9 +130,25 @@
 }
 
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:800px){
     .description {
-        border: rgb(89, 0, 255) 1px solid;
+       
         z-index: 10px;
+    }
+    .container-moda-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3fr 1fr;
+
+    }
+    .modal-body{
+        grid-column:  1/2;
+        grid-row: 1/3;
+    }
+    .description {
+
+    }
+    .footer{
+        background: transparent;
     }
 }
