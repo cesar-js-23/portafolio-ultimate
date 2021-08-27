@@ -1,5 +1,6 @@
 #navbar {
     box-shadow: 0px 0px 10px 1px var(--gray3);
+    z-index: 5;
 }
 
 #navbar div {
