@@ -71,10 +71,28 @@
 #portfolio .btn:hover:after {
     top: 40%;
     opacity: .75;
+    object-fit: fill;
 }
 
+/* .img-portafolio-proyect {
+    object-fit: scale-down;
+}
 
+.btn {
+    object-fit: fill;
+} */
 
+.cover {
+    object-fit: fill;
+  }
+
+.img-portafolio-proyect-rick {
+    position: relative;
+    top: 0px; /* ajustar los valores para mover la imagen */
+    left: -65px;
+    display: block;
+}
+  
 
 
 
